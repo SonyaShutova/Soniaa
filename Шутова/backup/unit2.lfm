@@ -1,0 +1,108 @@
+object Form2: TForm2
+  Left = -149
+  Height = 635
+  Top = 275
+  Width = 920
+  Caption = 'Form2'
+  ClientHeight = 635
+  ClientWidth = 920
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 240
+    Height = 64
+    Top = 64
+    Width = 400
+    Caption = 'Выберите цвет'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -60
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 280
+    Height = 32
+    Top = 184
+    Width = 102
+    Caption = 'Игрок 1'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -28
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 489
+    Height = 32
+    Top = 184
+    Width = 102
+    Caption = 'Игрок 2'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -28
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ColorBox1: TColorBox
+    Left = 264
+    Height = 24
+    Top = 232
+    Width = 150
+    ItemHeight = 16
+    TabOrder = 0
+  end
+  object ColorBox2: TColorBox
+    Left = 472
+    Height = 22
+    Top = 234
+    Width = 150
+    ItemHeight = 16
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 336
+    Height = 89
+    Top = 400
+    Width = 192
+    Caption = 'Вернуться'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 336
+    Height = 89
+    Top = 304
+    Width = 192
+    Caption = 'Начать игру'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 3
+  end
+end
